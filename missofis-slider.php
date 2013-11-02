@@ -23,7 +23,7 @@
  * --- linki parse et video linkiyse video ikonu pdf se pdf ikonu koy
  * --- the_content' la çektiğim içerikten p, a, strong, ... dışındaki elementleri sil
  * --- slider option ları wordpress içinden edit edilebilir yaptığın zaman option ları json' a jaz
- * ---
+ * --- add image size yerine bunu post thumbnail width' ine eşitleyebilirim (tabi post_thumb size ı da ana temada set etmek koşuluyola, wp default' a kalmadan)
  * ---
  */
 
