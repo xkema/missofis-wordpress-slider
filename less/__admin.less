@@ -1,0 +1,245 @@
+/*
+Admin styles for sf-movie
+*/
+
+/**
+ * ---------------------------------------------------------------------------
+ * TABLE OF CONTENTS
+ * ---------------------------------------------------------------------------
+ * 1.0 - VARIABLES & PATHS
+ * 2.0 - ADMIN STYLES
+ *   2.1 - METABOXES
+ * ---------------------------------------------------------------------------
+ */
+
+/*
+ * ---------------------------------------------------------------------------
+ * 1.0 VARIABLES & PATHS
+ * ---------------------------------------------------------------------------
+ */
+
+ @path-img: "../img/";
+
+/*
+ * ---------------------------------------------------------------------------
+ * 2.0 ADMIN STYLES
+ * ---------------------------------------------------------------------------
+ */
+
+hr {
+
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #ffffff;
+	border-left: none;
+	border-right: none;
+
+}
+
+#adminmenu {
+
+	#menu-posts-sf_movie {
+
+		.wp-menu-image {
+
+			// background-image: url( '@{path-img}stripfilm-movie-menu-icon.png' );
+			// background-position: 0px 0px;
+
+		}
+
+		&:hover, &.wp-has-current-submenu {
+
+			.wp-menu-image {
+
+				// background-position: 0px -28px;
+
+			}
+
+		}
+
+	}
+
+}
+
+#icon-edit.icon32-posts-sf_movie {
+
+	// background-image: url( '@{path-img}stripfilm-movie-menu-icon-32.png' );
+	// background-position: 0px 0px;
+
+}
+
+/*
+ * ---------------------------------------------------------------------------
+ * 2.1 METABOXES
+ * ---------------------------------------------------------------------------
+ */
+
+ #sf_title_original_meta_box, #sf_image_source_link_meta_box, #sf_api_fetcher_meta_box {
+
+ 	label {
+
+ 		// font-style: italic;
+ 		// padding-left: 1%;
+ 		// display: block;
+
+ 	}
+
+ 	input[type=text] {
+
+ 		// padding: 8px 0 8px 10px;
+
+ 	}
+
+ 	input[type=text], label {
+
+ 		// width: 98%;
+
+ 	}
+
+ 	ul {
+
+ 		// list-style: square inside;
+
+ 		li {
+
+	 		// font-style: italic;
+	 		// padding-left: 20px;
+
+ 		}
+
+ 	}
+
+}
+
+// api fetcher meta box
+#sf_api_fetcher_meta_box {
+
+	h1 {
+
+		// font-size: 16px;
+
+	}
+
+	// alerts goes here
+	#message-box {
+
+		// display: none;
+
+		// message box colors
+		// .sf_warning, .sf_error, .sf_success { border-radius: 3px; padding: 12px 0 10px; width: 98%; text-indent: 16px; }
+		// .sf_warning { background-color: #ffffe0; border: #e6db55 1px solid; }
+		// .sf_error { background-color: #FFECEC; border: #FFB2B2 1px solid; }
+		// .sf_success { background-color: #F1FFE0; border: #B8E655 1px solid; }
+
+	}
+
+	// spinners
+	.fetch-spinner {
+
+		// display: none;
+		// margin-top: 12px;
+		// width: 28px;
+		// height: 28px;
+
+	}
+
+	// main button
+	#sf-fetch-data {
+
+		// margin-top: 10px;
+		// margin-left: 2px;
+		// margin-bottom: 6px;
+
+	}
+
+	// movie data holder
+	#movie-data-holder {
+
+		// display: none;
+		// padding-left: 50px;
+
+	}
+
+	// backdrop buttonn holder
+	#backdrops-links {
+
+		// display: none;
+		// margin-top: 16px;
+
+	}
+
+	// backdrops content holder
+	#backdrops-holder {
+
+		// display: none;
+		// margin-top: 20px;
+		// .clearfix;
+
+		ul.backdrops-grid {
+
+			// list-style: none;
+			// margin: 0;
+			// padding: 0;
+
+			li {
+
+				// display: block;
+				// float: left;
+				// margin: 0 7px 7px 0;
+				// padding: 0;
+
+				a {
+
+					img {
+
+						// display: block;
+						// max-width: 144px;
+						// height: auto;
+						// -webkit-border-radius: 1px;
+						// -moz-border-radius: 1px;
+						// border-radius: 1px;
+						// border: 2px solid #000;
+						// -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+						// -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+						// box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+
+					}
+
+					&:hover {
+
+						img {
+
+							// -webkit-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.85);
+							// -moz-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.85);
+							// box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.85);
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+// clearfix
+.clearfix {
+
+	&:before,
+	&:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+
+	&:after {
+		clear: both;
+	}
+
+	 // For IE 6/7 only, Include this rule to trigger hasLayout and contain floats.
+	 *zoom: 1;
+
+}

@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Missofis WordPress Slider v1.0\n"
+"POT-Creation-Date: 2013-11-02 05:54+0200\n"
+"PO-Revision-Date: 2013-11-02 05:54+0200\n"
+"Last-Translator: Kemal <kemalxyz@gmail.com>\n"
+"Language-Team: Missofis Deve <kemalxyz@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_attr_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\core\\wp-content\\plugins"
+"\\missofis-wordpress-slider\n"
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:127
+msgid "Missofis Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:128
+msgid "Missofis Slide"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:129
+msgid "All Slides"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:130
+msgid "Add New"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:131
+msgid "Add New Slide"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:132
+msgid "Edit Slide"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:133
+msgid "New Slide"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:134
+msgid "View Slide"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:135
+msgid "Search Slides"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:136
+msgid "No Slides Found"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:137
+msgid "No Slides Found in Trash"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:140
+msgid "Custom Post Type for Missofis Slides, Missofis Slide Object"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:149
+msgid "Slides"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:152
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:155
+msgid "slide"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:210
+msgid "Slide Link"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:224
+msgid "The web link which slide image is being directed"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:224
+msgid "Slide URL"
+msgstr ""
+
+#: C:\xampp\htdocs\core\wp-content\plugins\missofis-wordpress-slider/missofis-slider.php:228
+msgid ""
+"Provide a valid link here. It's always a good practice to check slide links "
+"after publishing."
+msgstr ""
