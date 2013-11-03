@@ -84,9 +84,6 @@ class MSO_Slider {
 		// register admin styles and scripts
 		add_action( 'admin_enqueue_scripts', array( $this, 'mso_register_admin_scripts_and_styles' ) );
 
-		// add image size for slider (ICAN specific, 720x420px)
-		add_image_size( 'missofis-slider-image', 720, 420, true );
-
 	} /* ENDOF: init */
 
 
@@ -266,7 +263,7 @@ class MSO_Slider {
 
 						//print tbuhmnail
 						if ( has_post_thumbnail() )
-							the_post_thumbnail( 'missofis-slider-image' );
+							the_post_thumbnail();
 
 						// get & write url
 						if ( get_post_meta( get_the_id(), 'mso-slide-link', true ) != '' ) : ?>
