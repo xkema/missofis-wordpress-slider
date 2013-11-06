@@ -269,13 +269,12 @@ class MSO_Slider {
 							the_post_thumbnail( 'missofis-slider-image' );
 
 						// get & write url
-						if ( get_post_meta( get_the_id(), 'mso-slide-link', true ) != '' ) : ?>
+						//if ( get_post_meta( get_the_id(), 'mso-slide-link', true ) != '' ) : ?><?php //endif; ?>
 						</a>
-						<?php endif; ?>
 
 						<?php // write caption ?>
 						<figcaption>
-							<h1><?php the_title(); ?></h1>
+							<h1><a href="<?php echo esc_url( get_post_meta( get_the_id(), 'mso-slide-link', true ) ); ?>" target="_blank"><?php the_title(); ?></a></h1>
 							<?php the_content(); ?>
 						</figcaption>
 
