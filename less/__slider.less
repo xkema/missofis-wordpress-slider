@@ -73,6 +73,7 @@ Site styles for sf-movie-post-type
 
 .slider-wrapper {
 	
+	// z-index: 60; //
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -96,7 +97,7 @@ Site styles for sf-movie-post-type
 	.rslides {
 
 		background-color: rgba( 0, 0, 0, 0.75 );
-		z-index: 63;
+		// z-index: 63;
 
 		li {
 
@@ -110,6 +111,7 @@ Site styles for sf-movie-post-type
 
 				//height: 340px; // change it to appropriate values in media queries or use height without max-
 				//overflow: hidden;
+				.clearfix;
 
 				figcaption {
 					
@@ -231,4 +233,22 @@ Site styles for sf-movie-post-type
 	@opperc: @opacity * 100;
 	-ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=@{opperc})";
 	filter: ~"alpha(opacity=@{opperc})";
+}
+
+// clearix mixin
+.clearfix {
+
+	&:before,
+	&:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+
+	&:after {
+		clear: both;
+	}
+
+	 // For IE 6/7 only, Include this rule to trigger hasLayout and contain floats.
+	 *zoom: 1;
+
 }
