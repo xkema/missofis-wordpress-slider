@@ -73,7 +73,6 @@ Site styles for sf-movie-post-type
 
 .slider-wrapper {
 	
-	// z-index: 60; //
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -97,7 +96,6 @@ Site styles for sf-movie-post-type
 	.rslides {
 
 		background-color: rgba( 0, 0, 0, 0.75 );
-		// z-index: 63;
 
 		li {
 
@@ -196,8 +194,8 @@ Site styles for sf-movie-post-type
 		position: absolute;
 		top: 50%;
 		margin-top: -25px;
-		color: #a0a0a0;
-		text-shadow: 0px -1px 0px #000;
+		color: #dadada;
+		// text-shadow: 0px -1px 0px #000;
 		z-index: 69;
 		font-size: 13px;
 		text-decoration: none;
@@ -211,7 +209,7 @@ Site styles for sf-movie-post-type
 		&:hover {
 
 			background-color: rgba( 228, 30, 38, 0.80 );
-			color: #c3c3c3;
+			color: #eeeeee;
 
 		}
 
@@ -226,6 +224,67 @@ Site styles for sf-movie-post-type
 
 			right: 14px;
 			left: auto;
+
+		}
+
+	}
+
+
+	// pager
+	.rslides_tabs {
+
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+		z-index: 70;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		max-width: 36px;
+
+		li {
+
+			position: relative;
+			float: left;
+			margin: 0px 1px;
+			line-height: 12px;
+
+			&.rslides_here {
+
+				a {
+
+					background-color: #e41e26;
+
+				}
+
+			}
+
+			a {
+
+				text-indent: -9999px !important;
+				overflow: hidden;
+				width: 10px;
+				height: 10px;
+				background-color: #fff;
+				.rounded( 5px );
+				display: inline-block;
+				line-height: inherit;
+
+
+
+			// -webkit-border-radius: 15px;
+			// -moz-border-radius: 15px;
+			// border-radius: 15px;
+			// background: #ccc;
+			// background: rgba(0,0,0, .2);
+			// display: inline-block;
+			// _display: block;
+			// *display: block;
+			// -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+			// -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+			// box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+
+			}
 
 		}
 
@@ -263,4 +322,10 @@ Site styles for sf-movie-post-type
 	 // For IE 6/7 only, Include this rule to trigger hasLayout and contain floats.
 	 *zoom: 1;
 
+}
+
+.rounded(@radius: 2px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
 }
