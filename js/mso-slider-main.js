@@ -13,8 +13,8 @@ jQuery( document ).ready( function() {
 		random: false,          // Boolean: Randomize the order of the slides, true or false
 		pause: true,           // Boolean: Pause on hover, true or false
 		pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-		prevText: "&lt;",   // String: Text for the "previous" button
-		nextText: "&gt;",       // String: Text for the "next" button
+		prevText: "&lsaquo;",   // String: Text for the "previous" button
+		nextText: "&rsaquo;",       // String: Text for the "next" button
 		maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
 		navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
 		manualControls: "",     // Selector: Declare custom pager navigation
